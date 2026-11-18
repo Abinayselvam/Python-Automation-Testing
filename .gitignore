@@ -1,0 +1,22 @@
+<CodeBlock language="gitignore" editable>
+# Virtual environments
+.venv/
+venv/
+env/
+
+Python cache
+pycache/
+*.pyc
+Pytest
+.pytest_cache/
+test-results/
+playwright-report/
+Environment secrets
+.env
+.env.*
+VS Code
+.vscode/
+Coverage
+.coverage
+htmlcov/
+</CodeBlock>
