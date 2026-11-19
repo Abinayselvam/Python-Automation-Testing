@@ -1,0 +1,19 @@
+{
+    "test_cases": [
+        {
+            "username": "admin",
+            "password": "admin123",
+            "expected": "success"
+        },
+        {
+            "username": "admin",
+            "password": "wrong",
+            "expected": "failure"
+        },
+        {
+            "username": "",
+            "password": "",
+            "expected": "failure"
+        }
+    ]
+}
